@@ -1,0 +1,132 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  background-color: #f4a261;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding: 10px 0;
+  background-color: #264653;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background-image: url("https://via.placeholder.com/1500x500");
+  background-size: cover;
+  background-position: center;
+  padding: 100px 20px;
+  text-align: center;
+  color: white;
+}
+
+.hero h2 {
+  margin: 0 0 10px;
+}
+
+.hero p {
+  margin: 0 0 20px;
+}
+
+.cta-button {
+  background-color: #e76f51;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.cta-button:hover {
+  background-color: #d65c3c;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.product {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  text-align: center;
+}
+
+.product img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.product h3 {
+  margin: 10px 0 5px;
+}
+
+.product p {
+  margin: 0;
+  font-weight: bold;
+  color: #e76f51;
+}
+
+footer {
+  background-color: #264653;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.promo-tile img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  max-width: 400px;
+  max-height: 400px;
+}
+
+.grid-small .promo-tile {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 1;
+  max-width: 400px;
+}
+
+.product .btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: white;
+  color: #333;
+  text-decoration: none;
+  border-radius: 25px;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  border: 1px solid #ddd;
+}
+
+.product .btn:hover {
+  background-color: #f8f8f8;
+  transform: translateY(-2px);
+  transition: all 0.3s ease;
+}
