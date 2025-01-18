@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Essentials - Premium Kitchenware</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        color: #333;
+        background-color: #fff;
+      }
+
+      header {
+        padding: 15px 40px;
+        background-color: #fff;
+        border-bottom: 1px solid #eee;
+      }
+
+      .top-bar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 15px;
+      }
+
+      .logo {
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-decoration: none;
+        color: #333;
+      }
+
+      .top-icons {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+      }
+
+      nav {
+        display: flex;
+        gap: 30px;
+        font-size: 0.9rem;
+      }
+
+      nav a {
+        text-decoration: none;
+        color: #333;
+        text-transform: uppercase;
+        font-size: 0.85rem;
+      }
+
+      .shipping-banner {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        padding: 10px;
+        background-color: #f5f5f5;
+        font-size: 0.8rem;
+      }
+
+      .main-content {
+        padding: 20px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        max-width: 1400px;
+        margin: 0 auto;
+      }
+
+      .promo-tile {
+        position: relative;
+        overflow: hidden;
+        aspect-ratio: 1;
+      }
+
+      .promo-tile img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .promo-content {
+        position: absolute;
+        bottom: 40px;
+        left: 40px;
+        color: #333;
+      }
+
+      .promo-title {
+        font-size: 1.8rem;
+        margin-bottom: 10px;
+        font-weight: bold;
+      }
+
+      .promo-subtitle {
+        font-size: 1rem;
+        margin-bottom: 15px;
+      }
+
+      .promo-button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: white;
+        color: #333;
+        text-decoration: none;
+        border-radius: 25px;
+        font-size: 0.9rem;
+        text-transform: uppercase;
+      }
+
+      .sale-tile .promo-content {
+        text-align: center;
+        left: 50%;
+        transform: translateX(-50%);
+        color: white;
+      }
+
+      .sale-tile .promo-button {
+        background-color: white;
+        color: #333;
+      }
+
+      .grid-small {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+      }
+
+      .small-tile {
+        aspect-ratio: 1;
+        position: relative;
+      }
+
+      .small-tile img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="top-bar">
+        <a href="/" class="logo">HOME ESSENTIALS</a>
+        <div class="top-icons">
+          <span>My Account</span>
+          <span>Basket (0)</span>
+        </div>
+      </div>
+      <nav>
+        <a href="#">New In</a>
+        <a href="#">Bedroom</a>
+        <a href="#">Living Room</a>
+        <a href="#">Kitchen & Dining</a>
+        <a href="#">Bathroom</a>
+        <a href="#">Lighting</a>
+        <a href="#">Sale & Clearance</a>
+      </nav>
+    </header>
+
+    <div class="shipping-banner">
+      <span>📦 Free Delivery on orders over £50</span>
+      <span>⭐ 10% off your first order</span>
+      <span>🔄 Easy Returns within 30 days</span>
+    </div>
+
+    <main class="main-content">
+      <div class="promo-tile">
+        <img src="assets/images/bed.png" 
+             alt="Bedroom Essentials" 
+             style="width: 800px; height: 800px; object-fit: cover;" />
+        <div class="promo-content">
+          <h2 class="promo-title" style="color: white;">Ultimate Kitchen Comfort</h2>
+          <p class="promo-subtitle" style="color: white;">Premium cookware from £10</p>
+          <a href="#" class="promo-button">Shop Kitchen</a>
+        </div>
+      </div>
+
+      <div class="grid-small">
+        <div class="promo-tile sale-tile" style="background-color: #e32d2d">
+          <div class="promo-content">
+            <h2 class="promo-title">JANUARY SALE</h2>
+            <p class="promo-subtitle">UP TO 50% OFF</p>
+            <a href="#" class="promo-button">Shop the Offers</a>
+          </div>
+        </div>
+
+        <div class="promo-tile">
+          <img src="assets/images/coffee.png" 
+               alt="Coffee Maker" 
+               style="width: 400px; height: 400px; object-fit: cover;" />
+          <div class="promo-content">
+            <h2 class="promo-title" style="color: white;">Make mornings easier</h2>
+            <a href="#" class="promo-button">Shop Appliances</a>
+          </div>
+        </div>
+        
+        </div>
+
+        
+      
+  </body>
+</html>
+<footer>
+  <p>&copy; 2025 Home Essentials. All rights reserved.</p>
+</footer>
+  </body>
+  
+</html>

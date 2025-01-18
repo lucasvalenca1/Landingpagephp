@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Essentials | Premium Kitchen Products</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        color: #333;
+      }
+      header {
+        background: #f4f4f4;
+        padding: 2rem;
+        text-align: center;
+      }
+      header h1 {
+        margin: 0;
+        font-size: 2.5rem;
+      }
+      header p {
+        font-size: 1.2rem;
+        color: #555;
+      }
+      header .cta {
+        margin-top: 1rem;
+        padding: 1rem 2rem;
+        background-color: #007bff;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+      }
+      .products {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 2rem;
+        padding: 2rem;
+      }
+      .product {
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        overflow: hidden;
+        text-align: center;
+        padding: 1rem;
+        transition: transform 0.3s;
+      }
+      .product:hover {
+        transform: scale(1.05);
+      }
+      .product img {
+        width: 100%;
+        height: auto;
+      }
+      .product h3 {
+        font-size: 1.5rem;
+        margin: 0.5rem 0;
+      }
+      .product p {
+        font-size: 1rem;
+        color: #555;
+      }
+      .product .btn {
+        display: inline-block;
+        margin-top: 1rem;
+        padding: 0.5rem 1rem;
+        background-color: #28a745;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+      }
+      footer {
+        background: #f4f4f4;
+        padding: 1rem;
+        text-align: center;
+        margin-top: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Hero Section -->
+    <header>
+      <h1>Welcome to Home Essentials</h1>
+      <p>
+        Discover premium kitchen tools crafted to make cooking effortless and
+        enjoyable.
+      </p>
+      <a href="#products" class="cta">Shop Now</a>
+    </header>
+
+    <!-- Product Section -->
+    <section id="products" class="products">
+      <!-- Stainless Steel Pan -->
+      <div class="product">
+        <img
+          src="assets/images/stainless_steel_pan.png"
+          alt="Stainless Steel Pan"
+        />
+        <h3>Stainless Steel Pan</h3>
+        <p>£29.99</p>
+        <p>Durable and heat-efficient, perfect for all your cooking needs.</p>
+        <a href="stainless_steel_pan.html" class="btn">View Product</a>
+      </div>
+
+      <!-- Wooden Cutting Board -->
+      <div class="product">
+        <img
+          src="assets/images/wooden_cutting_board.png"
+          alt="Wooden Cutting Board"
+        />
+        <h3>Wooden Cutting Board</h3>
+        <p>£14.99</p>
+        <p>Elegant and sturdy, designed for both function and style.</p>
+        <a href="wooden_cutting_board.html" class="btn">View Product</a>
+      </div>
+
+      <!-- Ceramic Mixing Bowl -->
+      <div class="product">
+        <img
+          src="assets/images/ceramic_mixing_bowl.png"
+          alt="Ceramic Mixing Bowl"
+        />
+        <h3>Ceramic Mixing Bowl</h3>
+        <p>£19.99</p>
+        <p>Beautifully crafted for mixing, serving, and more.</p>
+        <a href="ceramic_mixing_bowl.html" class="btn">View Product</a>
+      </div>
+
+      <!-- Chef's Knife -->
+      <div class="product">
+        <img src="assets/images/chefs_knife.png" alt="Chef's Knife" />
+        <h3>Chef's Knife</h3>
+        <p>£39.99</p>
+        <p>Precision-engineered for effortless slicing and dicing.</p>
+        <a href="chefs_knife.html" class="btn">View Product</a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2025 Home Essentials. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>

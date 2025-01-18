@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Essentials - Premium Kitchenware</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        margin: 0;
+        padding: 0;
+        color: #333;
+        background-color: #fafafa;
+      }
+
+      header {
+        background-color: #f4a261;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+
+      header h1 {
+        margin: 0;
+        font-size: 2.5rem;
+      }
+
+      nav {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        padding: 10px 0;
+        background-color: #264653;
+      }
+
+      nav a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1rem;
+      }
+
+      nav a:hover {
+        text-decoration: underline;
+      }
+
+      .hero {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-image: url("https://via.placeholder.com/1500x500");
+        background-size: cover;
+        background-position: center;
+        padding: 50px;
+        color: white;
+      }
+
+      .hero-text {
+        max-width: 50%;
+      }
+
+      .hero-text h1 {
+        font-size: 3rem;
+        margin-bottom: 20px;
+      }
+
+      .hero-text p {
+        font-size: 1.2rem;
+        margin-bottom: 20px;
+      }
+
+      .products-section {
+        padding: 50px 20px;
+        background-color: #ece7de;
+      }
+
+      .products-section h2 {
+        text-align: center;
+        font-size: 2.5rem;
+        margin-bottom: 30px;
+      }
+
+      .products-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+      }
+
+      .product {
+        background-color: white;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        text-align: center;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s ease;
+      }
+
+      .product:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+      }
+
+      .product img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 15px;
+        border-radius: 5px;
+      }
+
+      .product h3 {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+      }
+
+      .product p {
+        font-size: 1.2rem;
+        margin-bottom: 15px;
+        color: #e76f51;
+        font-weight: bold;
+      }
+
+      .product a {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #264653;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+      }
+
+      .product a:hover {
+        background-color: #1e3b44;
+      }
+
+      footer {
+        background-color: #264653;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Home Essentials</h1>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="hero-text">
+        <h1>Chef's Essentials</h1>
+        <p>Your one-stop kitchen shop for quality tools and essentials.</p>
+      </div>
+      <img
+        src="assets/images/hero_image.png"
+        alt="Chef's Essentials"
+        style="border-radius: 10px; max-width: 45%"
+      />
+    </section>
+
+    <section class="products-section">
+      <h2>Discover Our Products</h2>
+      <div class="products-container">
+        <!-- Stainless Steel Pan -->
+        <div class="product">
+          <img
+            src="assets/images/stainless_steel_pan.png"
+            alt="Stainless Steel Pan"
+          />
+          <h3>Stainless Steel Pan</h3>
+          <p>£29.99</p>
+          <a href="stainless_steel_pan.html">View Product</a>
+        </div>
+
+        <!-- Wooden Cutting Board -->
+        <div class="product">
+          <img
+            src="assets/images/wooden_cutting_board.png"
+            alt="Wooden Cutting Board"
+          />
+          <h3>Wooden Cutting Board</h3>
+          <p>£14.99</p>
+          <a href="wooden_cutting_board.html">View Product</a>
+        </div>
+
+        <!-- Ceramic Mixing Bowl -->
+        <div class="product">
+          <img
+            src="assets/images/ceramic_mixing_bowl.png"
+            alt="Ceramic Mixing Bowl"
+          />
+          <h3>Ceramic Mixing Bowl</h3>
+          <p>£19.99</p>
+          <a href="ceramic_mixing_bowl.html">View Product</a>
+        </div>
+
+        <!-- Chef's Knife -->
+        <div class="product">
+          <img src="assets/images/chefs_knife.png" alt="Chef's Knife" />
+          <h3>Chef's Knife</h3>
+          <p>£39.99</p>
+          <a href="chefs_knife.html">View Product</a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Home Essentials. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
